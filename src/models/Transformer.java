@@ -1,5 +1,5 @@
 package models;
 
 public interface Transformer {
-    String transform(String text);
+    public abstract String transform(String text);
 }
